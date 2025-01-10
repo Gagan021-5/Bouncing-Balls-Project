@@ -1,0 +1,78 @@
+ *{
+    margin: 0;
+    padding:0;
+ }
+ body{
+  background-color: rgb(95, 189, 226);
+ }
+
+ h1{
+   font-family: sans-serif;
+ }
+ 
+ 
+ 
+ div{
+    height:500px;
+    width:900px;
+    border-radius: 30px;
+    background-color:black ;
+    margin-top: 50px;
+    box-shadow: 5px 15px 5px 5px rgb(75, 72, 72);
+   
+ }
+
+ #ball1{
+ 
+    box-shadow: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(204, 40, 40);
+    animation: Bounce 2.5s linear 0s infinite normal;
+ }
+
+ @keyframes Bounce{
+   0%{
+      left:0px;
+      
+      
+   }
+    30%{
+      transform: translateY(300px);
+   } 
+   40%{
+      transform: translateY(370px);
+   }
+   
+  90%{
+      left:800px;
+
+   }
+ }
+ 
+ #ball2{
+  
+   box-shadow: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    position: absolute;
+   animation: Bounce 2.5s linear 0.7s infinite normal;
+ }
+ 
+ #ball3{
+   
+   box-shadow: none;
+   height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+   animation: Bounce 2.5s linear 1.3s infinite normal;
+
+ }
+
+
